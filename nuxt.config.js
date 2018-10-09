@@ -27,13 +27,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'vuesax/dist/vuesax.css',
+    'material-icons/iconfont/material-icons.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: ['~/plugins/vuesax.js'],
 
   /*
   ** Nuxt.js modules
